@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="grid grid-cols-2 justify-items-center">
         <div className="text-gray-200 gap-4">
           <EmailIcon fontSize="large" />
-          Contracts me: chuwong35122@gmail.com
+          Contact me: chuwong35122@gmail.com
         </div>
 
         <div className="font-gray-200 font-size-md text-white mx-auto">
