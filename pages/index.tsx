@@ -30,16 +30,26 @@ const Home: NextPage = () => {
           Chuwong Kulrattanarak
         </div>
       </div>
-      <div className="bg-gray-600 px-8 py-6 mt-8 text-2xl gap-y-4 backdrop-opacity-70 font-light">
-        <div className="text-blue-300">
-          A highly enthusiastic, polite, optimistic person that is craving for
-          more tech-related knowledge & experience.
+      <div className="bg-gray-600 px-8 py-6 mt-8 text-2xl backdrop-opacity-70 font-light">
+        <div>
+          <div className="text-blue-300">
+            A highly enthusiastic, polite, optimistic person that is craving for
+            more tech-related knowledge & experience.
+          </div>
+          <div className="text-blue-300">
+            I am always eager to learn new things, especially in tech fields.
+          </div>
+          <div className="text-blue-300">
+            Also interested in Machine Learning 🤖 & Blockchain.
+          </div>
         </div>
-        <div className="text-blue-300">
-          I am always eager to learn new things, especially in tech fields.
+        <div className="text-blue-500 font-semibold text-base">
+          Proficient in English (IELTS 7.0), JavaScript/Typescript, JAVA,
+          Python, Git & Github.
         </div>
-        <div className="text-blue-400 mt-4">
-          Also interested in Machine Learning 🤖 & Blockchain.
+        <div className="text-blue-500 font-semibold text-base">
+          Familiar with React, React Native, NestJs, Node.js, Ionic, Flask,
+          Pandas.
         </div>
       </div>
       <AchievementList />

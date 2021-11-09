@@ -14,7 +14,8 @@ const AchievementList = () => {
     },
     {
       title: "CU Sport Complex",
-      description: "Back-end engineer role for CU Sport Center website.",
+      description:
+        "Back-end engineer role using NestJs for CU Sport Center website.",
       img: require("../public/cusportcomplex/cusport.png"),
       url: "https://book.cusc.chula.ac.th/",
     },
