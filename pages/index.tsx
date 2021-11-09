@@ -1,11 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import AchievementList from "../components/AchievementList";
 import MyPhoto from "../public/ck_image.jpg";
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div>
       <Head>
         <title>Home</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -41,7 +42,8 @@ const Home: NextPage = () => {
           Also interested in Machine Learning 🤖 & Blockchain.
         </div>
       </div>
-    </>
+      <AchievementList />
+    </div>
   );
 };
 
