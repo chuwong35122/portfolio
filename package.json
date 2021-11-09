@@ -1,5 +1,5 @@
 {
-  "name": "with-tailwindcss",
+  "name": "my-portfolio",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,6 +10,7 @@
   "dependencies": {
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
+    "@mui/icons-material": "^5.1.0",
     "@mui/material": "^5.1.0",
     "autoprefixer": "^10.4.0",
     "next": "12.0.3",

@@ -1,9 +1,48 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Image from "next/image";
+import MyPhoto from "../public/ck_image.jpg";
 
 const Home: NextPage = () => {
-  return <div>Cock</div>;
+  return (
+    <>
+      <Head>
+        <title>Home</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+
+      <div
+        className="h-80 w-80 rounded-full absolute right-8 top-5 z-20"
+        style={{ overflow: "hidden" }}
+      >
+        <Image
+          src={MyPhoto}
+          alt="Picture of the Chuwong Kulrattanarak"
+          objectFit="cover"
+        />
+      </div>
+      <div className=" w-screen p-6 flex-col pt-10">
+        <div className="text-6xl text-gray-200 flex-auto font-light">
+          My name is
+        </div>
+        <div className="font-medium text-8xl text-gray-50 underline flex-auto">
+          Chuwong Kulrattanarak
+        </div>
+      </div>
+      <div className="bg-gray-600 px-8 py-6 mt-8 text-2xl gap-y-4 backdrop-opacity-70 font-light">
+        <div className="text-blue-300">
+          A highly enthusiastic, polite, optimistic person that is craving for
+          more tech-related knowledge & experience.
+        </div>
+        <div className="text-blue-300">
+          I am always eager to learn new things, especially in tech fields.
+        </div>
+        <div className="text-blue-400 mt-4">
+          Also interested in Machine Learning 🤖 & Blockchain.
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default Home;
