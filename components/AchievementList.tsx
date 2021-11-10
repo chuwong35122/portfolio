@@ -53,11 +53,15 @@ const AchievementList = () => {
                 <p className="flex flex-wrap w-100">{item.description}</p>
               </CardContent>
               <div className="absolute bottom-4 right-4">
-                <IconButton>
-                  <Link href={item.url} color="primary">
-                    <ExitToAppIcon />
-                  </Link>
-                </IconButton>
+                {item.url ? (
+                  <IconButton>
+                    <Link href={item.url} color="primary">
+                      <ExitToAppIcon />
+                    </Link>
+                  </IconButton>
+                ) : (
+                  <></>
+                )}
               </div>
             </Card>
           );
